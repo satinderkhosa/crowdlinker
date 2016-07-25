@@ -1,0 +1,329 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900);
+.container {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  max-width: 1440px;
+}
+.container section.one {
+  margin-top: 50px;
+  position: relative;
+}
+.container section.one h1 {
+  font-size: 52px;
+  color: #43484d;
+  font-weight: 300;
+}
+.container section.one h2 {
+  color: #5e6977;
+  position: relative;
+  margin-top: 15px;
+  font-weight: 300;
+}
+.container section.one h1,
+.container section.one h2 {
+  text-align: center;
+}
+.container section.two {
+  text-align: center;
+}
+.container section.two h3 {
+  font-weight: 300;
+  font-size: 32px;
+  margin-top: 160px;
+  line-height: 45px;
+}
+.container section.two .buy-now-23 {
+  margin: 40px auto;
+  background: #7dc855;
+  height: 60px;
+  width: 190px;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 20px 0;
+}
+.hr {
+  text-align: center;
+  background: url(../img/line.png) center repeat-x;
+  position: relative;
+  margin-top: 55px;
+}
+.chart-area {
+  background: grey;
+  height: 480px;
+  text-align: center;
+  position: relative;
+  margin-top: 60px;
+}
+header {
+  height: 150px;
+  box-sizing: border-box;
+  padding: 50px 0;
+}
+header .logo {
+  background: url(../img/logo.png) no-repeat;
+  display: block;
+  height: 28px;
+  width: 60px;
+  float: left;
+  left: 70px;
+  position: relative;
+}
+header ul.nav {
+  list-style-type: none;
+  position: relative;
+  float: right;
+  right: 70px;
+}
+header ul.nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+header ul.nav li a {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #86939e;
+}
+header ul.nav li .active {
+  border: solid 2px #e1e8ee;
+  border-radius: 3px;
+  height: 42px;
+  width: 111px;
+}
+section.three {
+  position: relative;
+  padding-top: 45px;
+  box-sizing: border-box;
+  min-height: 375px;
+}
+section.three .carousel-inner {
+  margin: 0 auto;
+  max-width: 1100px;
+  position: reative;
+}
+section.three .carousel-inner .item {
+  margin-top: 35px;
+}
+section.three .carousel-inner .item img {
+  float: left;
+}
+section.three .carousel-inner .item .row .big-text {
+  font-size: 32px;
+  font-weight: 300;
+}
+section.three .carousel-inner .item .row .name {
+  font-weight: 400;
+  font-size: 18px;
+  color: #43484d;
+  position: relative;
+  margin-top: 45px;
+}
+section.three .carousel-inner .item .row .more-info {
+  color: #86939e;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  margin-top: 5px;
+}
+section.three .right.carousel-control {
+  background: url(../img/next-arrow.png) right center no-repeat;
+}
+section.three .left.carousel-control {
+  background: url(../img/back-arrow.png) left center no-repeat;
+}
+section.four {
+  background: #f4f4f4;
+  box-sizing: border-box;
+  padding: 90px 0;
+  min-height: 750px;
+}
+section.four .title {
+  font-weight: 300;
+  font-size: 52px;
+  color: #43484d;
+  text-align: center;
+  margin-bottom: 50px;
+}
+section.four .type {
+  font-weight: 300;
+  font-size: 32px;
+  color: #43484d;
+  text-align: center;
+}
+section.four .description {
+  font-weight: 400;
+  font-size: 15px;
+  color: #86939e;
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+  max-height: 60px;
+}
+section.four .item {
+  margin: auto;
+  /*max-height:430px;
+            max-width:360px;;
+            box-sizing: border-box;*/
+  background: white;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(222, 222, 222, 0.25);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(222, 222, 222, 0.25);
+  box-shadow: 2px 2px 2px 0px rgba(222, 222, 222, 0.25);
+  margin-top: 10px;
+  border-radius: 5px;
+  position: relative;
+  height: auto;
+}
+section.four .item.info {
+  background: url(../img/info.png) top right no-repeat #ffffff;
+  border: solid 2px #cee0ee;
+}
+section.four .top-part {
+  max-height: 230px;
+  box-sizing: border-box;
+  padding: 60px 30px;
+  border-bottom: 1px solid #e1e8ee;
+}
+section.four .bottom-part {
+  max-height: 202px;
+  padding: 30px 30px;
+}
+section.four .bottom-part .split {
+  position: relative;
+  overflow: hidden;
+}
+section.four .bottom-part .split .price {
+  font-weight: 300;
+  font-size: 52px;
+  color: #43484d;
+  float: left;
+  max-width: 135px;
+  margin-right: 10px;
+}
+section.four .bottom-part .split .price.free {
+  color: #7dc855;
+}
+section.four .bottom-part .split .cycle {
+  font-size: 14px;
+  color: #86939e;
+  font-weight: 400;
+  float: left;
+  top: 0;
+  max-width: 160px;
+  position: relative;
+  text-align: left;
+}
+section.four .bottom-part .get {
+  background: #7dc855;
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  display: block;
+  border-radius: 5px;
+  font-weight: 500;
+  color: white;
+  font-weight: 16px;
+  text-decoration: none;
+}
+section.four .item {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+section.five {
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+section.five .title {
+  font-size: 52px;
+  color: #43484d;
+  font-weight: 300;
+  text-align: center;
+}
+section.five .text {
+  color: #5e6977;
+  position: relative;
+  font-weight: 300;
+  font-size: 22px;
+  text-align: center;
+  max-width: 500px;
+  margin: 30px auto;
+}
+section.five .email {
+  background: url(../img/input.png) no-repeat;
+  width: 325px;
+  height: 60px;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-left: 50px;
+}
+section.five .email.focus {
+  outline: 0;
+}
+section.five .submit {
+  height: 60px;
+  width: 140px;
+  border: 0;
+  padding: 0;
+  background: #7dc855;
+  border-radius: 0 5px 5px 0;
+  color: white;
+}
+footer {
+  height: 100px;
+  box-sizing: border-box;
+  padding: 45px 0;
+  background: #86939e;
+}
+footer .links {
+  text-align: center;
+}
+footer .links a {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+footer .copy {
+  font-weight: 400;
+  text-align: right;
+  color: #ffffff;
+}
+@media only screen and (max-width: 1000px) {
+  footer {
+    height: auto;
+    text-align: center;
+  }
+  footer .copy {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .bottom-part,
+  .split {
+    height: auto;
+  }
+  .price,
+  .cycle {
+    float: none;
+  }
+  .four {
+    position: relative;
+  }
+  .four .item {
+    display: inline-block;
+    max-width: 355px;
+    background: white;
+    border-radius: 5px;
+    position: relative;
+    height: auto;
+  }
+  .four .container {
+    text-align: center;
+  }
+}
